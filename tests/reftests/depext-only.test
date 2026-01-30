@@ -88,9 +88,8 @@ The following system packages will first need to be installed:
 - sys-foo
 ### :I:5: No depext
 ### OPAMNODEPEXTS=1 opam install foo --depext-only
+Usage: opam install [--help] [OPTION]… [PACKAGES]…
 opam: --depext-only and --no-depexts can't be used together
-Usage: opam install [OPTION]… [PACKAGES]…
-Try 'opam install --help' or 'opam --help' for more information.
 # Return code 2 #
 ### :I:6: No confirmation
 ### opam switch create refuse --empty
